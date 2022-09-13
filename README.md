@@ -78,14 +78,13 @@ Your job will be to replace the last line of the dialog, don't worry I wrote a s
 
 
 ```bash
-# Your answer
-sh replace_in_file character1/Ygritte.txt "[???]"
+
+sh replace_in_file character1/Ygritte.txt "Nothing"
 ```
 
 Perfect now that you have done a modification on a file, you can commit it on git.
 
 **<font color='#ffb799'>Use `git commit -m` to commit your changes</font>** The `-m` option is used to specify a git commit message, it is mandatory so watch out!
-
 
 ```bash
 # Your answer
