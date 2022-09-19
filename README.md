@@ -168,7 +168,7 @@ python display_dialog.py --char1 character1/James.txt --char2 character2/Sylvia.
 
 ```bash
 # Your answer
-sh replace_in_file character1/James.txt "[???]"
+sh replace_in_file character1/James.txt "Bond.James Bond"
 ```
 
 **<font color='#ffb799'>And now update changes on remote server</font>**
@@ -176,25 +176,25 @@ sh replace_in_file character1/James.txt "[???]"
 
 ```bash
 # Your answer
-
+git add character1/James.txt
 ```
 
 
 ```bash
 # Your answer
-
+git commit -m "Bond"
 ```
 
 
 ```bash
 # Your answer
-
+git pull origin master
 ```
 
 
 ```bash
 # Your answer
-
+git push origin master
 ```
 
 ### 5.2 Fight Club
@@ -211,7 +211,7 @@ python display_dialog.py --char1 character1/voice_fc.txt --char2 character2/Tyle
 
 ```bash
 # Your answer
-sh replace_in_file character2/Tyler.txt "[???]"
+sh replace_in_file character2/Tyler.txt "you have to respect each other"
 ```
 
 **<font color='#ffb799'>And now update changes on remote server</font>**
@@ -219,25 +219,25 @@ sh replace_in_file character2/Tyler.txt "[???]"
 
 ```bash
 # Your answer
-
+git add character2/Tyler.txt
 ```
 
 
 ```bash
 # Your answer
-
+git commit -m "Fight club done"
 ```
 
 
 ```bash
 # Your answer
-
+git pull origin master
 ```
 
 
 ```bash
 # Your answer
-
+git push origin master
 ```
 
 ### 5.3 Apollo 13
@@ -254,7 +254,7 @@ python display_dialog.py --char1 character1/appollo13.txt --char2 character2/Jim
 
 ```bash
 # Your answer
-sh replace_in_file character2/Jim.txt "[???]"
+sh replace_in_file character2/Jim.txt "Umm"
 ```
 
 **<font color='#ffb799'>And now update changes on remote server</font>**
@@ -262,25 +262,25 @@ sh replace_in_file character2/Jim.txt "[???]"
 
 ```bash
 # Your answer
-
+git add character2/Jim.txt
 ```
 
 
 ```bash
 # Your answer
-
+git commit -m "Jim done"
 ```
 
 
 ```bash
 # Your answer
-
+git pull origin master
 ```
 
 
 ```bash
 # Your answer
-
+git push origin master
 ```
 
 ### 5.4 Back to the future part II
@@ -305,25 +305,26 @@ sh replace_in_file character2/Emmet.txt "[???]"
 
 ```bash
 # Your answer
-
+sh replace_in_file character2/Emmet.txt "What rodes?"
 ```
 
 
 ```bash
 # Your answer
-
+git add character2/Emmet.txt
 ```
 
 
 ```bash
 # Your answer
-
+git commit -m "Emmet done"
 ```
 
 
 ```bash
 # Your answer
-
+git pull origin master
+git push origin master
 ```
 
 # Exercise 6: Revert a local commit
@@ -344,7 +345,7 @@ For this time I'll give you the answer, Luke said *"NOOOOOOOOOOOOOO NOOOOOOOO"* 
 
 ```bash
 # Your answer
-sh replace_in_file character2/Luke.txt "[???]"
+sh replace_in_file character2/Luke.txt "NOOOOOOOOOOOOOO NOOOOOOOO"
 ```
 
 **<font color='#ffb799'>Now commit your changes (but don't push)</font>**
@@ -352,19 +353,19 @@ sh replace_in_file character2/Luke.txt "[???]"
 
 ```bash
 # Your answer
-
+git add character2/Luke.txt
 ```
 
 
 ```bash
 # Your answer
-
+git commit -m "Luke done"
 ```
 
 
 ```bash
 # Your answer
-
+git pull origin master
 ```
 
 Ok, in fact I was wrong Luke didn't said it twice, it think it was just one simple *"NOOOOO"*.
@@ -379,19 +380,19 @@ Ok, in fact I was wrong Luke didn't said it twice, it think it was just one simp
 
 ```bash
 # Your answer
-
+sh replace_in_file character2/Luke.txt "NOOOOO"
 ```
 
 
 ```bash
 # Your answer
-
+git commit -m "Luke2 done"
 ```
 
 
 ```bash
 # Your anwser
-
+git pull origin master
 ```
 
 Well after reviewing the scene (that you can find just here: https://www.youtube.com/watch?v=bv20ZoBcdO8 we were right in the first place.
@@ -401,7 +402,7 @@ Well after reviewing the scene (that you can find just here: https://www.youtube
 
 ```bash
 # Your answer
-
+git reset --soft commit_id
 ```
 
 
@@ -421,13 +422,13 @@ Well after reviewing the scene (that you can find just here: https://www.youtube
 
 ```bash
 # Your answer
-
+git pull origin master
 ```
 
 
 ```bash
 # Your answer
-
+git push origin master
 ```
 
 You just reverted a local commit and pushed, well done!
@@ -459,31 +460,31 @@ python display_dialog.py --char1 character1/Forrest.txt --char2 character2/Lady.
 
 ```bash
 # Your answer
-sh replace_in_file character1/Forrest.txt "[???]"
+sh replace_in_file character1/Forrest.txt "that"
 ```
 
 
 ```bash
 # Your answer
-
+git add character1/Forrest.txt
 ```
 
 
 ```bash
 # Your answer
-
+git commit -m "Forrest done"
 ```
 
 
 ```bash
 # Your answer
-
+git pull origin master
 ```
 
 
 ```bash
 # Your answer
-
+git push origin master
 ```
 
 Perfect now let's imagine that we want to go back to the status we had before this exercise.
