@@ -88,7 +88,7 @@ Perfect now that you have done a modification on a file, you can commit it on gi
 
 ```bash
 # Your answer
-
+sh replace_in_file character1/Ygritte.txt "Nothing"
 ```
 
 Did not work? that's normal you can't commit files that you did not add to your local changes. To see the files that have changes we usually use `git status`
@@ -105,13 +105,13 @@ git status
 
 ```bash
 # Your answer
-
+git add character1/Ygritte.txt
 ```
 
 
 ```bash
 # Your answer
-
+git commit -a "Done"
 ```
 
 **Bravo!** You have done you're first commit
@@ -124,7 +124,8 @@ git status
 
 ```bash
 # Your answer
-
+git pull origin master
+git push origin master
 ```
 
 Easy right? Now you can check that everything is ok on the github page.
